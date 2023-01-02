@@ -48,6 +48,6 @@ struct LandmarkDetail: View {
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarks[2])
+        LandmarkDetail(landmark: ModelData().landmarks[2])
     }
 }
